@@ -3,23 +3,50 @@
 <head>
     <title>A.Mattis Contact</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="heading">
-    <h1>Anna-Marjorie Mattis</h1>
-            <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-    </div>
-    <h2>Contact</h2>
-    <br>
-    <h3>Name</h3>
-    <br>
-    <h3>Email</h3>
-    <br>
-    <h3>Message</h3>
-</body>
+    
+    <div class="heading container">
+
+        <h1>Anna-Marjorie Mattis</h1>
+            
+            <nav>        
+                <ul>
+                    <li>About |</li>
+                    <li>Portfolio |</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+ 
+        </div>
+    <div class="contact">   
+        <h2>Contact</h2>
+        <div class="h-line"></div>
+            <form>
+                <fieldset>
+                      <p>
+                        <label><strong>Name</strong></label>
+                        <br>
+                        <input type="text" id="name"></input>
+                      </p>
+                      <p>
+                        <label><strong>Email</strong></label>
+                        <br>
+                        <input type="text" id="email"></input>
+                      </p>
+                      <p>
+                        <label><strong>Message</strong></label>
+                        <br>
+                        <textarea type="text" id="message">Your text here</textarea>
+                      </p>
+                      <br>
+                      <input type="Button" Value="Submit" onClick="textBoxValue( )">
+                </fieldset>
+            </form>
+        </div>
+    </body>
 </html>
+
